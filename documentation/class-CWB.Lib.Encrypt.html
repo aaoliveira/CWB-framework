@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CWB\Lib\Encrypt | cwb.framework</title>
+
+	<script type="text/javascript" src="resources/combined.js?2780970235"></script>
+	<script type="text/javascript" src="elementlist.js?4243633313"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-CWB.html">CWB<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-CWB.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-CWB.Core.html">Core</a>
+						</li>
+				<li class="active"><a href="namespace-CWB.Lib.html">Lib<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Db.html">Db</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Draw.html">Draw</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Effects.html">Effects</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Filter.html">Filter<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Filter.Advanced.html">Advanced</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Filter.Basic.html">Basic</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Gd.html">Gd</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Gmagick.html">Gmagick</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Image.Fill.html">Fill<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Image.Fill.Gradient.html">Gradient</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Image.Histogram.html">Histogram</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Image.Point.html">Point</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Imagick.html">Imagick</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Util.html">Util</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Model.html">Model</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CWB.Lib.Cache.html">Cache</a></li>
+				<li><a href="class-CWB.Lib.Csrf.html">Csrf</a></li>
+				<li><a href="class-CWB.Lib.Email.html">Email</a></li>
+				<li class="active"><a href="class-CWB.Lib.Encrypt.html">Encrypt</a></li>
+				<li><a href="class-CWB.Lib.FTP.html">FTP</a></li>
+				<li><a href="class-CWB.Lib.Mailer.html">Mailer</a></li>
+				<li><a href="class-CWB.Lib.Model.html">Model</a></li>
+				<li><a href="class-CWB.Lib.Registry.html">Registry</a></li>
+				<li><a href="class-CWB.Lib.Session.html">Session</a></li>
+				<li><a href="class-CWB.Lib.SMTP.html">SMTP</a></li>
+				<li><a href="class-CWB.Lib.View.html">View</a></li>
+				<li><a href="class-CWB.Lib.Xss.html">Xss</a></li>
+			</ul>
+
+
+
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-CWB.Lib.phpmailerException.html">phpmailerException</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-CWB.Lib.html" title="Summary of CWB\Lib"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Encrypt</h1>
+
+
+	<div class="description">
+	
+<p>Encryption Class</p>
+
+<p>Provides two-way keyed encoding using XOR Hashing and Mcrypt</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-CWB.html">CWB</a>\<a href="namespace-CWB.Lib.html">Lib</a><br />
+		<b>Package:</b> CWB<br />
+
+		<b>Located at</b> <a href="source-class-CWB.Lib.Encrypt.html#7-412" title="Go to source code">CWB/Lib/Encrypt.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-CWB.Lib.Encrypt.html#22-37" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			
+<p>Constructor</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor</p>
+
+<p>Simply determines whether the mcrypt library exists.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getKey" id="_getKey">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getKey">#</a>
+		<code><a href="source-class-CWB.Lib.Encrypt.html#41-62" title="Go to source code">getKey</a>( <span>string <var>$key</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetch the encryption key</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch the encryption key</p>
+
+<p>Returns it as MD5 in order to have an exact-length 128 bit key. Mcrypt is
+sensitive to keys that are not the correct length</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setKey" id="_setKey">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setKey">#</a>
+		<code><a href="source-class-CWB.Lib.Encrypt.html#66-76" title="Go to source code">setKey</a>( <span>string <var>$key</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the encryption key</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the encryption key</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="encode" id="_encode">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_encode">#</a>
+		<code><a href="source-class-CWB.Lib.Encrypt.html#80-107" title="Go to source code">encode</a>( <span>string <var>$string</var></span>, <span>string <var>$key</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Encode</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Encode</p>
+
+<p>Encodes the message string using bitwise XOR encoding. The key is combined
+with a random hash, and then it too gets converted using XOR. The whole thing is
+then run through mcrypt (if supported) using the randomized key. The end result
+is a double-encrypted message string that is randomized with each call to this
+function, even if the supplied message and key are the same.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>the string to encode</dd>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>the key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="decode" id="_decode">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_decode">#</a>
+		<code><a href="source-class-CWB.Lib.Encrypt.html#111-140" title="Go to source code">decode</a>( <span>string <var>$string</var></span>, <span>string <var>$key</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Decode</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Decode</p>
+
+<p>Reverses the above process</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="mcryptEncode" id="_mcryptEncode">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_mcryptEncode">#</a>
+		<code><a href="source-class-CWB.Lib.Encrypt.html#216-229" title="Go to source code">mcryptEncode</a>( <span>string <var>$data</var></span>, <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Encrypt using Mcrypt</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Encrypt using Mcrypt</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="mcryptDecode" id="_mcryptDecode">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_mcryptDecode">#</a>
+		<code><a href="source-class-CWB.Lib.Encrypt.html#233-253" title="Go to source code">mcryptDecode</a>( <span>string <var>$data</var></span>, <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Decrypt using Mcrypt</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Decrypt using Mcrypt</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCipher" id="_setCipher">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCipher">#</a>
+		<code><a href="source-class-CWB.Lib.Encrypt.html#323-333" title="Go to source code">setCipher</a>( <span>constant <var>$cipher</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the Mcrypt Cipher</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Mcrypt Cipher</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$cipher</var></dt>
+					<dd><code>constant</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setMode" id="_setMode">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setMode">#</a>
+		<code><a href="source-class-CWB.Lib.Encrypt.html#337-347" title="Go to source code">setMode</a>( <span>constant <var>$mode</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the Mcrypt Mode</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Mcrypt Mode</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$mode</var></dt>
+					<dd><code>constant</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setHash" id="_setHash">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setHash">#</a>
+		<code><a href="source-class-CWB.Lib.Encrypt.html#385-396" title="Go to source code">setHash</a>( <span>string <var>$type</var> = <span class="php-quote">'sha1'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the Hash type</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Hash type</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hash" id="_hash">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hash">#</a>
+		<code><a href="source-class-CWB.Lib.Encrypt.html#400-410" title="Go to source code">hash</a>( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Hash encode a string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Hash encode a string</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="encryptionKey" id="$encryptionKey">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Encrypt.html#16" title="Go to source code"><var>$encryptionKey</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$encryptionKey" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_mcryptExists" id="$_mcryptExists">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Encrypt.html#18" title="Go to source code"><var>$_mcryptExists</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_mcryptExists" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_mcryptCipher" id="$_mcryptCipher">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Encrypt.html#19" title="Go to source code"><var>$_mcryptCipher</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$_mcryptCipher" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_mcryptMode" id="$_mcryptMode">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Encrypt.html#20" title="Go to source code"><var>$_mcryptMode</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$_mcryptMode" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		cwb.framework API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

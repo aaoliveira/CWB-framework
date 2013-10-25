@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CWB\Core\Router | cwb.framework</title>
+
+	<script type="text/javascript" src="resources/combined.js?2780970235"></script>
+	<script type="text/javascript" src="elementlist.js?4243633313"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-CWB.html">CWB<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-CWB.Controller.html">Controller</a>
+						</li>
+				<li class="active"><a href="namespace-CWB.Core.html">Core</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.html">Lib<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Db.html">Db</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Draw.html">Draw</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Effects.html">Effects</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Filter.html">Filter<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Filter.Advanced.html">Advanced</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Filter.Basic.html">Basic</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Gd.html">Gd</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Gmagick.html">Gmagick</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Image.Fill.html">Fill<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Image.Fill.Gradient.html">Gradient</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Image.Histogram.html">Histogram</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Image.Point.html">Point</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Imagick.html">Imagick</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Util.html">Util</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Model.html">Model</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CWB.Core.Autoloader.html">Autoloader</a></li>
+				<li class="active"><a href="class-CWB.Core.Router.html">Router</a></li>
+				<li><a href="class-CWB.Core.Start.html">Start</a></li>
+			</ul>
+
+
+
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-CWB.Core.Error.html">Error</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-CWB.Core.html" title="Summary of CWB\Core"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Router</h1>
+
+
+	<div class="description">
+	
+<p>classe responsavel por ditar o roteamento das paginas para o respectivo
+controller e method utilizando o array no arquivo Config/Routes.php e muda os
+coringas da <em>key</em> no array.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		<b>Final</b><br />
+		
+		<b>Namespace:</b> <a href="namespace-CWB.html">CWB</a>\<a href="namespace-CWB.Core.html">Core</a><br />
+		<b>Package:</b> CWB<br />
+
+		<b>Located at</b> <a href="source-class-CWB.Core.Router.html#7-266" title="Go to source code">CWB/Core/Router.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-CWB.Core.Router.html#53-101" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			
+<p>init the router load the directrys, parse routes, aliases,
+Controller\Method.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>init the router load the directrys, parse routes, aliases,
+Controller\Method.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="pathURL" id="$pathURL">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Core.Router.html#17-21" title="Go to source code"><var>$pathURL</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$pathURL" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>request of the URL</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>request of the URL</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="routes" id="$routes">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Core.Router.html#23-27" title="Go to source code"><var>$routes</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$routes" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>contains the redirects of the routes</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>contains the redirects of the routes</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="controller" id="$controller">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Core.Router.html#29-33" title="Go to source code"><var>$controller</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'CWB\Controller\\'</span></code></td>
+		<td class="description"><div>
+			<a href="#$controller" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>controller white type = namespace\class</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>controller white type = namespace\class</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="method" id="$method">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Core.Router.html#35-39" title="Go to source code"><var>$method</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'index'</span></code></td>
+		<td class="description"><div>
+			<a href="#$method" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>get the method</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>get the method</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="args" id="$args">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Core.Router.html#41-45" title="Go to source code"><var>$args</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$args" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>arguments for the function</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>arguments for the function</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		cwb.framework API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

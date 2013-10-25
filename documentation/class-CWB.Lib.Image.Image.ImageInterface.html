@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Interface CWB\Lib\Image\Image\ImageInterface | cwb.framework</title>
+
+	<script type="text/javascript" src="resources/combined.js?2780970235"></script>
+	<script type="text/javascript" src="elementlist.js?4243633313"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-CWB.html">CWB<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-CWB.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-CWB.Core.html">Core</a>
+						</li>
+				<li class="active"><a href="namespace-CWB.Lib.html">Lib<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Db.html">Db</a>
+						</li>
+				<li class="active"><a href="namespace-CWB.Lib.Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Draw.html">Draw</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Effects.html">Effects</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Filter.html">Filter<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Filter.Advanced.html">Advanced</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Filter.Basic.html">Basic</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Gd.html">Gd</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Gmagick.html">Gmagick</a>
+						</li>
+				<li class="active"><a href="namespace-CWB.Lib.Image.Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Image.Fill.html">Fill<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Image.Fill.Gradient.html">Gradient</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Image.Histogram.html">Histogram</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Image.Point.html">Point</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Imagick.html">Imagick</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Util.html">Util</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Model.html">Model</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CWB.Lib.Image.Image.AbstractFont.html">AbstractFont</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.AbstractLayers.html">AbstractLayers</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.Box.html">Box</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.Color.html">Color</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.Point.html">Point</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-CWB.Lib.Image.Image.BoxInterface.html">BoxInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.FontInterface.html">FontInterface</a></li>
+				<li class="active"><a href="class-CWB.Lib.Image.Image.ImageInterface.html">ImageInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.ImagineInterface.html">ImagineInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.LayersInterface.html">LayersInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html">ManipulatorInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.PointInterface.html">PointInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-CWB.Lib.Image.Image.html" title="Summary of CWB\Lib\Image\Image"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Interface ImageInterface</h1>
+
+
+	<div class="description">
+	
+<p>The image interface</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>CWB\Lib\Image\Image\ImageInterface</span></b>			
+			 implements 
+				<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html"><span>CWB\Lib\Image\Image\ManipulatorInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+	<div>
+		<h4>Direct known implementers</h4>
+			<a href="class-CWB.Lib.Image.Gd.Image.html">CWB\Lib\Image\Gd\Image</a>, 
+			<a href="class-CWB.Lib.Image.Gmagick.Image.html">CWB\Lib\Image\Gmagick\Image</a>, 
+			<a href="class-CWB.Lib.Image.Imagick.Image.html">CWB\Lib\Image\Imagick\Image</a>
+	</div>
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-CWB.html">CWB</a>\<a href="namespace-CWB.Lib.html">Lib</a>\<a href="namespace-CWB.Lib.Image.html">Image</a>\<a href="namespace-CWB.Lib.Image.Image.html">Image</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#22-121" title="Go to source code">CWB/Lib/Image/Image/ImageInterface.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#35-45" title="Go to source code">get</a>( <span>string <var>$format</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns the image content as a binary string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the image content as a binary string</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$format</var></dt>
+					<dd><code>string</code><br>$format</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>binary<br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Exception.RuntimeException.html">CWB\Lib\Image\Exception\RuntimeException</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__toString" id="___toString">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___toString">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#47-54" title="Go to source code">__toString</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the image content as a PNG binary string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the image content as a PNG binary string</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>binary<br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Exception.RuntimeException.html">CWB\Lib\Image\Exception\RuntimeException</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="draw" id="_draw">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Draw.DrawerInterface.html">CWB\Lib\Image\Draw\DrawerInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_draw">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#56-61" title="Go to source code">draw</a>( )</code>
+
+		<div class="description short">
+			
+<p>Instantiates and returns a DrawerInterface instance for image drawing</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Instantiates and returns a DrawerInterface instance for image drawing</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Draw.DrawerInterface.html">CWB\Lib\Image\Draw\DrawerInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="effects" id="_effects">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Effects.EffectsInterface.html">CWB\Lib\Image\Effects\EffectsInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_effects">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#63-66" title="Go to source code">effects</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Effects.EffectsInterface.html">CWB\Lib\Image\Effects\EffectsInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSize" id="_getSize">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Image.BoxInterface.html">CWB\Lib\Image\Image\BoxInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSize">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#68-73" title="Go to source code">getSize</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns current image size</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns current image size</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Image.BoxInterface.html">CWB\Lib\Image\Image\BoxInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="mask" id="_mask">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Image.ImageInterface.html">CWB\Lib\Image\Image\ImageInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_mask">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#75-81" title="Go to source code">mask</a>( )</code>
+
+		<div class="description short">
+			
+<p>Transforms creates a grayscale mask from current image, returns a new image,
+while keeping the existing image unmodified</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Transforms creates a grayscale mask from current image, returns a new image,
+while keeping the existing image unmodified</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Image.ImageInterface.html">CWB\Lib\Image\Image\ImageInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="histogram" id="_histogram">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_histogram">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#83-88" title="Go to source code">histogram</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns array of image colors as Imagine\Image\Color instances</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns array of image colors as Imagine\Image\Color instances</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getColorAt" id="_getColorAt">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Image.Color.html">CWB\Lib\Image\Image\Color</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getColorAt">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#90-99" title="Go to source code">getColorAt</a>( <span><code><a href="class-CWB.Lib.Image.Image.PointInterface.html">CWB\Lib\Image\Image\PointInterface</a></code> <var>$point</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns color at specified positions of current image</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns color at specified positions of current image</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$point</var></dt>
+					<dd><code><code><a href="class-CWB.Lib.Image.Image.PointInterface.html">CWB\Lib\Image\Image\PointInterface</a></code></code><br>$point</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Image.Color.html">CWB\Lib\Image\Image\Color</a></code></code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Exception.RuntimeException.html">CWB\Lib\Image\Exception\RuntimeException</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="layers" id="_layers">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Image.LayersInterface.html">CWB\Lib\Image\Image\LayersInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_layers">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#101-109" title="Go to source code">layers</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the image layers when applicable.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the image layers when applicable.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Image.LayersInterface.html">CWB\Lib\Image\Image\LayersInterface</a></code></code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Exception.RuntimeException.html">CWB\Lib\Image\Exception\RuntimeException</a></code></code><br>In case the layer can not be returned<br />
+					<code><code><a href="class-CWB.Lib.Image.Exception.OutOfBoundsException.html">CWB\Lib\Image\Exception\OutOfBoundsException</a></code></code><br>In case the index is not a valid value<br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="interlace" id="_interlace">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Image.ImageInterface.html">CWB\Lib\Image\Image\ImageInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_interlace">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#111-120" title="Go to source code">interlace</a>( <span>string <var>$scheme</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Enables or disables interlacing</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Enables or disables interlacing</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$scheme</var></dt>
+					<dd><code>string</code><br>$scheme</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Image.ImageInterface.html">CWB\Lib\Image\Image\ImageInterface</a></code></code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-InvalidArgumentException.html">InvalidArgumentException</a></code></code><br>When an unsupported Interface type is supplied<br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#methods">CWB\Lib\Image\Image\ManipulatorInterface</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#_applyMask">applyMask()</a>, 
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#_copy">copy()</a>, 
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#_crop">crop()</a>, 
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#_fill">fill()</a>, 
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#_flipHorizontally">flipHorizontally()</a>, 
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#_flipVertically">flipVertically()</a>, 
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#_paste">paste()</a>, 
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#_resize">resize()</a>, 
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#_rotate">rotate()</a>, 
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#_save">save()</a>, 
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#_show">show()</a>, 
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#_strip">strip()</a>, 
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#_thumbnail">thumbnail()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="RESOLUTION_PIXELSPERINCH" id="RESOLUTION_PIXELSPERINCH">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#27" title="Go to source code"><b>RESOLUTION_PIXELSPERINCH</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'ppi'</span></code></td>
+		<td class="description"><div>
+			<a href="#RESOLUTION_PIXELSPERINCH" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="RESOLUTION_PIXELSPERCENTIMETER" id="RESOLUTION_PIXELSPERCENTIMETER">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#28" title="Go to source code"><b>RESOLUTION_PIXELSPERCENTIMETER</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'ppc'</span></code></td>
+		<td class="description"><div>
+			<a href="#RESOLUTION_PIXELSPERCENTIMETER" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="INTERLACE_NONE" id="INTERLACE_NONE">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#30" title="Go to source code"><b>INTERLACE_NONE</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'none'</span></code></td>
+		<td class="description"><div>
+			<a href="#INTERLACE_NONE" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="INTERLACE_LINE" id="INTERLACE_LINE">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#31" title="Go to source code"><b>INTERLACE_LINE</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'line'</span></code></td>
+		<td class="description"><div>
+			<a href="#INTERLACE_LINE" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="INTERLACE_PLANE" id="INTERLACE_PLANE">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#32" title="Go to source code"><b>INTERLACE_PLANE</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'plane'</span></code></td>
+		<td class="description"><div>
+			<a href="#INTERLACE_PLANE" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="INTERLACE_PARTITION" id="INTERLACE_PARTITION">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-CWB.Lib.Image.Image.ImageInterface.html#33" title="Go to source code"><b>INTERLACE_PARTITION</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'partition'</span></code></td>
+		<td class="description"><div>
+			<a href="#INTERLACE_PARTITION" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Constants inherited from <a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#constants">CWB\Lib\Image\Image\ManipulatorInterface</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#THUMBNAIL_INSET"><b>THUMBNAIL_INSET</b></a>, 
+			<a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html#THUMBNAIL_OUTBOUND"><b>THUMBNAIL_OUTBOUND</b></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		cwb.framework API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

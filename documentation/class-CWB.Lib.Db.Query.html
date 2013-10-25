@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CWB\Lib\Db\Query | cwb.framework</title>
+
+	<script type="text/javascript" src="resources/combined.js?2780970235"></script>
+	<script type="text/javascript" src="elementlist.js?4243633313"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-CWB.html">CWB<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-CWB.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-CWB.Core.html">Core</a>
+						</li>
+				<li class="active"><a href="namespace-CWB.Lib.html">Lib<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-CWB.Lib.Db.html">Db</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Draw.html">Draw</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Effects.html">Effects</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Filter.html">Filter<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Filter.Advanced.html">Advanced</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Filter.Basic.html">Basic</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Gd.html">Gd</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Gmagick.html">Gmagick</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Image.Fill.html">Fill<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Image.Fill.Gradient.html">Gradient</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Image.Histogram.html">Histogram</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Image.Point.html">Point</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Imagick.html">Imagick</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Util.html">Util</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Model.html">Model</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CWB.Lib.Db.Connection.html">Connection</a></li>
+				<li><a href="class-CWB.Lib.Db.Manager.html">Manager</a></li>
+				<li class="active"><a href="class-CWB.Lib.Db.Query.html">Query</a></li>
+			</ul>
+
+
+
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-CWB.Lib.Db.Exception.html">Exception</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-CWB.Lib.Db.html" title="Summary of CWB\Lib\Db"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Query</h1>
+
+
+	<div class="description">
+	
+<p>Query</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-CWB.html">CWB</a>\<a href="namespace-CWB.Lib.html">Lib</a>\<a href="namespace-CWB.Lib.Db.html">Db</a><br />
+		
+
+				<b>Author:</b>
+				Sasa<br />
+		<b>Located at</b> <a href="source-class-CWB.Lib.Db.Query.html#5-648" title="Go to source code">CWB/Lib/Db/Query.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="getInstance" id="_getInstance">
+
+		<td class="attributes"><code>
+			 public static
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getInstance">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#58-68" title="Go to source code">getInstance</a>( )</code>
+
+		<div class="description short">
+			
+<p>get the instance of class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>get the instance of class</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setOperator" id="_setOperator">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setOperator">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#79-86" title="Go to source code">setOperator</a>( <span>string <var>$type</var></span> )</code>
+
+		<div class="description short">
+			
+<p>define o tipo de operador lógico</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>define o tipo de operador lógico</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>$type &gt; tipo de operador lógico como: OR , AND , &amp;&amp; , || , etc.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="select" id="_select">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_select">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#88-116" title="Go to source code">select</a>( <span>string <var>$statement</var> = <span class="php-quote">'*'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add statement for select - SELECT [?] FROM ...</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add statement for select - SELECT [?] FROM ...</p>
+
+<p>Examples: $sql-&gt;select("u.<em>") -&gt;select("b.</em>, COUNT(*) as total")
+-&gt;select(array( "MAX(id) as maxId", "collum" ) );</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$statement</var></dt>
+					<dd><code>string</code><br>$statement</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insert" id="_insert">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insert">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#118-139" title="Go to source code">insert</a>( <span>array <var>$fields</var></span>, <span>array <var>$params</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a sql statment to insert</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a sql statment to insert</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fields</var></dt>
+					<dd><code>array</code><br>$fields &gt; fields =&gt; values to insert</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params &gt; parameters of statment</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="_update">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#141-166" title="Go to source code">update</a>( <span>array <var>$fields</var></span>, <span>array <var>$params</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a sql statment to update</p>
+
+<pre>
+Exemples:
+<span class="php-var">$sql</span>-&gt;update(<span
+class="php-keyword1">array</span>(<span
+class="php-quote">&quot;field&quot;</span>=&gt;<span
+class="php-quote">&quot;?&quot;</span>,),<span
+class="php-quote">'value'</span> );
+</pre>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a sql statment to update</p>
+
+<pre>
+Exemples:
+<span class="php-var">$sql</span>-&gt;update(<span
+class="php-keyword1">array</span>(<span
+class="php-quote">&quot;field&quot;</span>=&gt;<span
+class="php-quote">&quot;?&quot;</span>,),<span
+class="php-quote">'value'</span> );
+</pre>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fields</var></dt>
+					<dd><code>array</code><br>$fields &gt; fields =&gt; values to insert</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params &gt; parameters of statment</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#168-182" title="Go to source code">delete</a>( )</code>
+
+		<div class="description short">
+			
+<p>Add a sql statment to update</p>
+
+<pre>
+Exemples:
+<span class="php-var">$sql</span>-&gt;<span
+class="php-keyword2">delete</span>();
+</pre>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a sql statment to update</p>
+
+<pre>
+Exemples:
+<span class="php-var">$sql</span>-&gt;<span
+class="php-keyword2">delete</span>();
+</pre>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="from" id="_from">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_from">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#184-206" title="Go to source code">from</a>( <span>string <var>$statement</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add statement for from - SELECT * FROM [?] ...</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add statement for from - SELECT * FROM [?] ...</p>
+
+<p>Examples: $sql-&gt;from("users"); $sql-&gt;from("users u, posts p");
+$sql-&gt;from(array("users u","posts p"));</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$statement</var></dt>
+					<dd><code>string</code><br>$statement</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="into" id="_into">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_into">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#208-215" title="Go to source code">into</a>( <span>type <var>$statement</var></span> )</code>
+
+		<div class="description short">
+			
+<p>sinonimous of from</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>sinonimous of from</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$statement</var></dt>
+					<dd><code>type</code><br>$statement</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="where" id="_where">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_where">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#217-235" title="Go to source code">where</a>( <span>string <var>$statement</var></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add statement for where - ... WHERE [?] ...</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add statement for where - ... WHERE [?] ...</p>
+
+<p>Examples:</p>
+
+<pre>
+<span class="php-var">$sql</span>-&gt;where(<span
+class="php-quote">&quot;user_id = ?&quot;</span>, <span
+class="php-var">$user_id</span>);
+<span
+class="php-var">$sql</span>-&gt;where(<span
+class="php-quote">&quot;u.registered &gt; ? AND (u.is_active = ? OR u.column IS NOT NULL)&quot;</span>, <span
+class="php-keyword1">array</span>(<span
+class="php-var">$registered</span>, <span class="php-num">1</span>));
+</pre>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$statement</var></dt>
+					<dd><code>string</code><br>$statement</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>mixed</code><br>$params</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="whereIn" id="_whereIn">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_whereIn">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#237-251" title="Go to source code">whereIn</a>( <span>string <var>$column</var></span>, <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add where in statement</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add where in statement</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$column</var></dt>
+					<dd><code>string</code><br>$column</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="whereNotIn" id="_whereNotIn">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_whereNotIn">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#253-265" title="Go to source code">whereNotIn</a>( <span>mixed <var>$column</var></span>, <span>mixed <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add where not in statement</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add where not in statement</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$column</var></dt>
+					<dd><code>mixed</code><br>$column</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>mixed</code><br>$params</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="having" id="_having">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_having">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#267-279" title="Go to source code">having</a>( <span>string <var>$statement</var></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add statement for HAVING ...</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add statement for HAVING ...</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$statement</var></dt>
+					<dd><code>string</code><br>$statement</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>mixed</code><br>$params</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="join" id="_join">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_join">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#281-298" title="Go to source code">join</a>( <span>string <var>$table</var></span>, <span>string <var>$on</var> = <span class="php-quote">''</span></span>, <span>string <var>$type</var> = <span class="php-quote">'JOIN'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add statement for join</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add statement for join</p>
+
+<p>Examples:</p>
+
+<pre>
+<span class="php-var">$sql</span>-&gt;<span
+class="php-keyword2">join</span>(<span
+class="php-quote">&quot;posts p&quot;</span>,<span
+class="php-quote">&quot;p.user_id = u.user_id&quot;</span>, <span
+class="php-quote">&quot;INNER JOIN&quot;</span>);
+</pre>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>$table &gt; table to join</dd>
+					<dt><var>$on</var></dt>
+					<dd><code>string</code><br>$on &gt; connection of table</dd>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>$type &gt; type of joining</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="groupBy" id="_groupBy">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_groupBy">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#300-322" title="Go to source code">groupBy</a>( <span>string <var>$statement</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add statement for group - GROUP BY [...]</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add statement for group - GROUP BY [...]</p>
+
+<p>Examples: $sql-&gt;groupBy("user_id"); $sql-&gt;groupBy("u.is_active,
+p.post_id"); $sql-&gt;groupBy(array('u.is_active', 'p.post_id'));</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$statement</var></dt>
+					<dd><code>string</code><br>$statement</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="orderBy" id="_orderBy">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_orderBy">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#324-346" title="Go to source code">orderBy</a>( <span>string <var>$statement</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add statement for order - ORDER BY [...]</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add statement for order - ORDER BY [...]</p>
+
+<p>Examples:</p>
+
+<pre>
+<span class="php-var">$sql</span>-&gt;orderBy(<span
+class="php-quote">&quot;registered&quot;</span>);
+<span
+class="php-var">$sql</span>-&gt;orderBy(<span
+class="php-quote">&quot;is_active, registered DESC&quot;</span>);
+</pre>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$statement</var></dt>
+					<dd><code>string</code><br>$statement</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="limit" id="_limit">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_limit">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#348-370" title="Go to source code">limit</a>( <span>integer <var>$limit</var></span>, <span>integer <var>$offset</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add statement for limit - LIMIT [...]</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add statement for limit - LIMIT [...]</p>
+
+<p>Examples: $sql-&gt;limit(30); $sql-&gt;limit(30,30);</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$limit</var></dt>
+					<dd><code>integer</code><br>$limit</dd>
+					<dt><var>$offset</var></dt>
+					<dd><code>integer</code><br>$offset</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__toString" id="___toString">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___toString">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#372-396" title="Go to source code">__toString</a>( )</code>
+
+		<div class="description short">
+			
+<p>print the sql builder</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>print the sql builder</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addParams" id="_addParams">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addParams">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#508-528" title="Go to source code">addParams</a>( <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add param(s) to stack</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add param(s) to stack</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getParams" id="_getParams">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getParams">#</a>
+		<code><a href="source-class-CWB.Lib.Db.Query.html#530-541" title="Go to source code">getParams</a>( )</code>
+
+		<div class="description short">
+			
+<p>get all param(s) to execute query and clean the params</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>get all param(s) to execute query and clean the params</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="QUERY_SELECT" id="QUERY_SELECT">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+				<a href="source-class-CWB.Lib.Db.Query.html#12-15" title="Go to source code"><b>QUERY_SELECT</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">1</span></code></td>
+		<td class="description"><div>
+			<a href="#QUERY_SELECT" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>call a query to select</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>call a query to select</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="QUERY_INSERT" id="QUERY_INSERT">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+				<a href="source-class-CWB.Lib.Db.Query.html#17-20" title="Go to source code"><b>QUERY_INSERT</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">2</span></code></td>
+		<td class="description"><div>
+			<a href="#QUERY_INSERT" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>call a query to insert</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>call a query to insert</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="QUERY_UPDATE" id="QUERY_UPDATE">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+				<a href="source-class-CWB.Lib.Db.Query.html#22-25" title="Go to source code"><b>QUERY_UPDATE</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">3</span></code></td>
+		<td class="description"><div>
+			<a href="#QUERY_UPDATE" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>call a query to update</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>call a query to update</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="QUERY_DELETE" id="QUERY_DELETE">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+				<a href="source-class-CWB.Lib.Db.Query.html#27-30" title="Go to source code"><b>QUERY_DELETE</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">4</span></code></td>
+		<td class="description"><div>
+			<a href="#QUERY_DELETE" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>call a query to delete</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>call a query to delete</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="select" id="$select">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Db.Query.html#32" title="Go to source code"><var>$select</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$select" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="insert" id="$insert">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Db.Query.html#33" title="Go to source code"><var>$insert</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$insert" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="$update">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Db.Query.html#34" title="Go to source code"><var>$update</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$update" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="$delete">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Db.Query.html#35" title="Go to source code"><var>$delete</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$delete" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="from" id="$from">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Db.Query.html#36" title="Go to source code"><var>$from</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$from" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="where" id="$where">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Db.Query.html#37" title="Go to source code"><var>$where</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$where" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="having" id="$having">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Db.Query.html#38" title="Go to source code"><var>$having</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$having" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="join" id="$join">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Db.Query.html#39" title="Go to source code"><var>$join</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$join" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="params" id="$params">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Db.Query.html#40" title="Go to source code"><var>$params</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$params" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="orderBy" id="$orderBy">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Db.Query.html#41" title="Go to source code"><var>$orderBy</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$orderBy" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="groupBy" id="$groupBy">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Db.Query.html#42" title="Go to source code"><var>$groupBy</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$groupBy" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="limit" id="$limit">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Db.Query.html#43" title="Go to source code"><var>$limit</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">&quot;&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$limit" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="instance" id="$instance">
+		<td class="attributes"><code>
+			public static 
+			<code><a href="class-CWB.Lib.Db.Query.html">CWB\Lib\Db\Query</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Lib.Db.Query.html#47-51" title="Go to source code"><var>$instance</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$instance" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>instance of this class</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>instance of this class</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		cwb.framework API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
