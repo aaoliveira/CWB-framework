@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Interface CWB\Lib\Image\Image\BoxInterface | cwb.framework</title>
+
+	<script type="text/javascript" src="resources/combined.js?2780970235"></script>
+	<script type="text/javascript" src="elementlist.js?4243633313"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-CWB.html">CWB<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-CWB.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-CWB.Core.html">Core</a>
+						</li>
+				<li class="active"><a href="namespace-CWB.Lib.html">Lib<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Db.html">Db</a>
+						</li>
+				<li class="active"><a href="namespace-CWB.Lib.Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Draw.html">Draw</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Effects.html">Effects</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Filter.html">Filter<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Filter.Advanced.html">Advanced</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Filter.Basic.html">Basic</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Gd.html">Gd</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Gmagick.html">Gmagick</a>
+						</li>
+				<li class="active"><a href="namespace-CWB.Lib.Image.Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Image.Fill.html">Fill<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Image.Fill.Gradient.html">Gradient</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Image.Histogram.html">Histogram</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Image.Point.html">Point</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Imagick.html">Imagick</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Util.html">Util</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Model.html">Model</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CWB.Lib.Image.Image.AbstractFont.html">AbstractFont</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.AbstractLayers.html">AbstractLayers</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.Box.html">Box</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.Color.html">Color</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.Point.html">Point</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li class="active"><a href="class-CWB.Lib.Image.Image.BoxInterface.html">BoxInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.FontInterface.html">FontInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.ImageInterface.html">ImageInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.ImagineInterface.html">ImagineInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.LayersInterface.html">LayersInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html">ManipulatorInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.PointInterface.html">PointInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-CWB.Lib.Image.Image.html" title="Summary of CWB\Lib\Image\Image"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Interface BoxInterface</h1>
+
+
+	<div class="description">
+	
+<p>Interface for a box</p>
+
+	</div>
+
+
+
+
+
+	<div>
+		<h4>Direct known implementers</h4>
+			<a href="class-CWB.Lib.Image.Image.Box.html">CWB\Lib\Image\Image\Box</a>
+	</div>
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-CWB.html">CWB</a>\<a href="namespace-CWB.Lib.html">Lib</a>\<a href="namespace-CWB.Lib.Image.html">Image</a>\<a href="namespace-CWB.Lib.Image.Image.html">Image</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-CWB.Lib.Image.Image.BoxInterface.html#16-96" title="Go to source code">CWB/Lib/Image/Image/BoxInterface.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="getHeight" id="_getHeight">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getHeight">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.BoxInterface.html#21-26" title="Go to source code">getHeight</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets current image height</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets current image height</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getWidth" id="_getWidth">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getWidth">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.BoxInterface.html#28-33" title="Go to source code">getWidth</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets current image width</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets current image width</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="scale" id="_scale">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Image.BoxInterface.html">CWB\Lib\Image\Image\BoxInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_scale">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.BoxInterface.html#35-42" title="Go to source code">scale</a>( <span>float <var>$ratio</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates new BoxInterface instance with ratios applied to both sides</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates new BoxInterface instance with ratios applied to both sides</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$ratio</var></dt>
+					<dd><code>float</code><br>$ratio</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Image.BoxInterface.html">CWB\Lib\Image\Image\BoxInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="increase" id="_increase">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Image.BoxInterface.html">CWB\Lib\Image\Image\BoxInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_increase">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.BoxInterface.html#44-51" title="Go to source code">increase</a>( <span>integer <var>$size</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates new BoxInterface, adding given size to both sides</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates new BoxInterface, adding given size to both sides</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$size</var></dt>
+					<dd><code>integer</code><br>$size</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Image.BoxInterface.html">CWB\Lib\Image\Image\BoxInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="contains" id="_contains">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_contains">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.BoxInterface.html#53-62" title="Go to source code">contains</a>( <span><code><a href="class-CWB.Lib.Image.Image.BoxInterface.html">CWB\Lib\Image\Image\BoxInterface</a></code> <var>$box</var></span>, <span><code><a href="class-CWB.Lib.Image.Image.PointInterface.html">CWB\Lib\Image\Image\PointInterface</a></code> <var>$start</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks whether current box can fit given box at a given start position, start
+position defaults to top left corner xy(0,0)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks whether current box can fit given box at a given start position, start
+position defaults to top left corner xy(0,0)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$box</var></dt>
+					<dd><code><code><a href="class-CWB.Lib.Image.Image.BoxInterface.html">CWB\Lib\Image\Image\BoxInterface</a></code></code><br>$box</dd>
+					<dt><var>$start</var></dt>
+					<dd><code><code><a href="class-CWB.Lib.Image.Image.PointInterface.html">CWB\Lib\Image\Image\PointInterface</a></code></code><br>$start</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="square" id="_square">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_square">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.BoxInterface.html#64-70" title="Go to source code">square</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets current box square, useful for getting total number of pixels in a given
+box</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets current box square, useful for getting total number of pixels in a given
+box</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__toString" id="___toString">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___toString">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.BoxInterface.html#72-77" title="Go to source code">__toString</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns a string representation of the current box</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a string representation of the current box</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="widen" id="_widen">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Image.BoxInterface.html">CWB\Lib\Image\Image\BoxInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_widen">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.BoxInterface.html#79-86" title="Go to source code">widen</a>( <span>integer <var>$width</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Resizes box to given width, constraining proportions and returns the new
+box</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resizes box to given width, constraining proportions and returns the new
+box</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$width</var></dt>
+					<dd><code>integer</code><br>$width</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Image.BoxInterface.html">CWB\Lib\Image\Image\BoxInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="heighten" id="_heighten">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Image.BoxInterface.html">CWB\Lib\Image\Image\BoxInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_heighten">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.BoxInterface.html#88-95" title="Go to source code">heighten</a>( <span>integer <var>$height</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Resizes box to given height, constraining proportions and returns the new
+box</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resizes box to given height, constraining proportions and returns the new
+box</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$height</var></dt>
+					<dd><code>integer</code><br>$height</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Image.BoxInterface.html">CWB\Lib\Image\Image\BoxInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		cwb.framework API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CWB\Config\Db | cwb.framework</title>
+
+	<script type="text/javascript" src="resources/combined.js?2780970235"></script>
+	<script type="text/javascript" src="elementlist.js?4243633313"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-CWB.html">CWB<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-CWB.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-CWB.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-CWB.Core.html">Core</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.html">Lib<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Db.html">Db</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Draw.html">Draw</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Effects.html">Effects</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Filter.html">Filter<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Filter.Advanced.html">Advanced</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Filter.Basic.html">Basic</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Gd.html">Gd</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Gmagick.html">Gmagick</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Image.Fill.html">Fill<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Image.Fill.Gradient.html">Gradient</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Image.Histogram.html">Histogram</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Image.Point.html">Point</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Imagick.html">Imagick</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Util.html">Util</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Model.html">Model</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CWB.Config.App.html">App</a></li>
+				<li class="active"><a href="class-CWB.Config.Db.html">Db</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-CWB.Config.html" title="Summary of CWB\Config"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Db</h1>
+
+
+	<div class="description">
+	
+<p>classe onde se quarda as configurações de conexão com o banco de dados
+esta classe utiliza o PDO</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-CWB.html">CWB</a>\<a href="namespace-CWB.Config.html">Config</a><br />
+		<b>Package:</b> CWB<br />
+
+		<b>Located at</b> <a href="source-class-CWB.Config.Db.html#5-40" title="Go to source code">CWB/Config/Db.php</a><br />
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="DSN" id="DSN">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-CWB.Config.Db.html#13-17" title="Go to source code"><b>DSN</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'mysql:host=localhost;port=3306;dbname=autogestor;charset=utf8'</span></code></td>
+		<td class="description"><div>
+			<a href="#DSN" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>DSN para conexão do banco de dados o padrão é de acordo com o do PDO
+class</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>DSN para conexão do banco de dados o padrão é de acordo com o do PDO
+class</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="USER" id="USER">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-CWB.Config.Db.html#19-22" title="Go to source code"><b>USER</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'root'</span></code></td>
+		<td class="description"><div>
+			<a href="#USER" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>nome de usuario do banco de dados</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>nome de usuario do banco de dados</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PASS" id="PASS">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-CWB.Config.Db.html#24-27" title="Go to source code"><b>PASS</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#PASS" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>senha do usuario no banco de dados</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>senha do usuario no banco de dados</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="options" id="$options">
+		<td class="attributes"><code>
+			public static 
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CWB.Config.Db.html#30-38" title="Go to source code"><var>$options</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+	\PDO::ATTR_PERSISTENT =&gt; <span class="php-keyword1">true</span>,
+	\PDO::ATTR_AUTOCOMMIT =&gt; <span class="php-keyword1">true</span>,
+	\PDO::ATTR_DEFAULT_FETCH_MODE =&gt; \PDO::FETCH_OBJ
+)</code></td>
+		<td class="description"><div>
+			<a href="#$options" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>array com os opcionais de conexão com banco de dados</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>array com os opcionais de conexão com banco de dados</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		cwb.framework API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

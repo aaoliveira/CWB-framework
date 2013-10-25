@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CWB\Lib\Image\Image\AbstractLayers | cwb.framework</title>
+
+	<script type="text/javascript" src="resources/combined.js?2780970235"></script>
+	<script type="text/javascript" src="elementlist.js?4243633313"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-CWB.html">CWB<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-CWB.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-CWB.Core.html">Core</a>
+						</li>
+				<li class="active"><a href="namespace-CWB.Lib.html">Lib<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Db.html">Db</a>
+						</li>
+				<li class="active"><a href="namespace-CWB.Lib.Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Draw.html">Draw</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Effects.html">Effects</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Filter.html">Filter<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Filter.Advanced.html">Advanced</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Filter.Basic.html">Basic</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Gd.html">Gd</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Gmagick.html">Gmagick</a>
+						</li>
+				<li class="active"><a href="namespace-CWB.Lib.Image.Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Image.Fill.html">Fill<span></span></a>
+						<ul>
+				<li><a href="namespace-CWB.Lib.Image.Image.Fill.Gradient.html">Gradient</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Image.Histogram.html">Histogram</a>
+						</li>
+				<li><a href="namespace-CWB.Lib.Image.Image.Point.html">Point</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Image.Imagick.html">Imagick</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Lib.Util.html">Util</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-CWB.Model.html">Model</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CWB.Lib.Image.Image.AbstractFont.html">AbstractFont</a></li>
+				<li class="active"><a href="class-CWB.Lib.Image.Image.AbstractLayers.html">AbstractLayers</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.Box.html">Box</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.Color.html">Color</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.Point.html">Point</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-CWB.Lib.Image.Image.BoxInterface.html">BoxInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.FontInterface.html">FontInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.ImageInterface.html">ImageInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.ImagineInterface.html">ImagineInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.LayersInterface.html">LayersInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.ManipulatorInterface.html">ManipulatorInterface</a></li>
+				<li><a href="class-CWB.Lib.Image.Image.PointInterface.html">PointInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-CWB.Lib.Image.Image.html" title="Summary of CWB\Lib\Image\Image"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class AbstractLayers</h1>
+
+
+	<div class="description">
+	
+<p>The layers interface</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>CWB\Lib\Image\Image\AbstractLayers</span></b>			
+			 implements 
+				<a href="class-CWB.Lib.Image.Image.LayersInterface.html"><span>CWB\Lib\Image\Image\LayersInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-CWB.Lib.Image.Gd.Layers.html">CWB\Lib\Image\Gd\Layers</a>, 
+			<a href="class-CWB.Lib.Image.Gmagick.Layers.html">CWB\Lib\Image\Gmagick\Layers</a>, 
+			<a href="class-CWB.Lib.Image.Imagick.Layers.html">CWB\Lib\Image\Imagick\Layers</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		<b>Abstract</b><br />
+		
+		<b>Namespace:</b> <a href="namespace-CWB.html">CWB</a>\<a href="namespace-CWB.Lib.html">Lib</a>\<a href="namespace-CWB.Lib.Image.html">Image</a>\<a href="namespace-CWB.Lib.Image.Image.html">Image</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-CWB.Lib.Image.Image.AbstractLayers.html#17-64" title="Go to source code">CWB/Lib/Image/Image/AbstractLayers.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="add" id="_add">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Image.LayersInterface.html">CWB\Lib\Image\Image\LayersInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_add">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.AbstractLayers.html#19-27" title="Go to source code">add</a>( <span><code><a href="class-CWB.Lib.Image.Image.ImageInterface.html">CWB\Lib\Image\Image\ImageInterface</a></code> <var>$image</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Adds an image at the end of the layers stack</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds an image at the end of the layers stack</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$image</var></dt>
+					<dd><code><code><a href="class-CWB.Lib.Image.Image.ImageInterface.html">CWB\Lib\Image\Image\ImageInterface</a></code></code><br>$image</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Image.LayersInterface.html">CWB\Lib\Image\Image\LayersInterface</a></code></code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-RuntimeException.html">RuntimeException</a></code></code><br />
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-CWB.Lib.Image.Image.LayersInterface.html#_add">CWB\Lib\Image\Image\LayersInterface::add()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set" id="_set">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Image.LayersInterface.html">CWB\Lib\Image\Image\LayersInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.AbstractLayers.html#29-37" title="Go to source code">set</a>( <span>integer <var>$offset</var></span>, <span><code><a href="class-CWB.Lib.Image.Image.ImageInterface.html">CWB\Lib\Image\Image\ImageInterface</a></code> <var>$image</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set an image at offset</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set an image at offset</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$offset</var></dt>
+					<dd><code>integer</code><br>$offset</dd>
+					<dt><var>$image</var></dt>
+					<dd><code><code><a href="class-CWB.Lib.Image.Image.ImageInterface.html">CWB\Lib\Image\Image\ImageInterface</a></code></code><br>$image</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Image.LayersInterface.html">CWB\Lib\Image\Image\LayersInterface</a></code></code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-RuntimeException.html">RuntimeException</a></code></code><br />
+					<code><code><a href="class-InvalidArgumentException.html">InvalidArgumentException</a></code></code><br />
+					<code><code><a href="class-OutOfBoundsException.html">OutOfBoundsException</a></code></code><br />
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-CWB.Lib.Image.Image.LayersInterface.html#_set">CWB\Lib\Image\Image\LayersInterface::set()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="remove" id="_remove">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Image.LayersInterface.html">CWB\Lib\Image\Image\LayersInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_remove">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.AbstractLayers.html#39-47" title="Go to source code">remove</a>( <span>integer <var>$offset</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Removes the image at offset</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Removes the image at offset</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$offset</var></dt>
+					<dd><code>integer</code><br>$offset</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Image.LayersInterface.html">CWB\Lib\Image\Image\LayersInterface</a></code></code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-RuntimeException.html">RuntimeException</a></code></code><br />
+					<code><code><a href="class-InvalidArgumentException.html">InvalidArgumentException</a></code></code><br />
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-CWB.Lib.Image.Image.LayersInterface.html#_remove">CWB\Lib\Image\Image\LayersInterface::remove()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-CWB.Lib.Image.Image.ImageInterface.html">CWB\Lib\Image\Image\ImageInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.AbstractLayers.html#49-55" title="Go to source code">get</a>( <span>integer <var>$offset</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns the image at offset</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the image at offset</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$offset</var></dt>
+					<dd><code>integer</code><br>$offset</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-CWB.Lib.Image.Image.ImageInterface.html">CWB\Lib\Image\Image\ImageInterface</a></code></code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-RuntimeException.html">RuntimeException</a></code></code><br />
+					<code><code><a href="class-InvalidArgumentException.html">InvalidArgumentException</a></code></code><br />
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-CWB.Lib.Image.Image.LayersInterface.html#_get">CWB\Lib\Image\Image\LayersInterface::get()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="has" id="_has">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_has">#</a>
+		<code><a href="source-class-CWB.Lib.Image.Image.AbstractLayers.html#57-63" title="Go to source code">has</a>( <span>integer <var>$offset</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns true if a layer at offset is preset</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if a layer at offset is preset</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$offset</var></dt>
+					<dd><code>integer</code><br>$offset</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br />
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-CWB.Lib.Image.Image.LayersInterface.html#_has">CWB\Lib\Image\Image\LayersInterface::has()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-CWB.Lib.Image.Image.LayersInterface.html#methods">CWB\Lib\Image\Image\LayersInterface</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-CWB.Lib.Image.Image.LayersInterface.html#_animate">animate()</a>, 
+			<a href="class-CWB.Lib.Image.Image.LayersInterface.html#_coalesce">coalesce()</a>, 
+			<a href="class-CWB.Lib.Image.Image.LayersInterface.html#_merge">merge()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-ArrayAccess.html#methods">ArrayAccess</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-ArrayAccess.html#_offsetExists">offsetExists()</a>, 
+			<a href="class-ArrayAccess.html#_offsetGet">offsetGet()</a>, 
+			<a href="class-ArrayAccess.html#_offsetSet">offsetSet()</a>, 
+			<a href="class-ArrayAccess.html#_offsetUnset">offsetUnset()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Countable.html#methods">Countable</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Countable.html#_count">count()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Iterator.html#methods">Iterator</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Iterator.html#_current">current()</a>, 
+			<a href="class-Iterator.html#_key">key()</a>, 
+			<a href="class-Iterator.html#_next">next()</a>, 
+			<a href="class-Iterator.html#_rewind">rewind()</a>, 
+			<a href="class-Iterator.html#_valid">valid()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		cwb.framework API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
