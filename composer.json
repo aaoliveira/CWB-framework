@@ -1,0 +1,14 @@
+{
+    "name": "felipecwb/cwb-framework",
+    "description": "Este é um incrivel framework que serve para mim Felipe.",
+	"keywords": ["framework", "CWB"],
+    "authors": [
+        {
+            "name": "Felipe",
+            "email": "felipe.cwb@hotmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=5.3.0"
+    }
+}
